@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "789379755544",
+    "project_id": "tripsapp-de2ce",
+    "storage_bucket": "tripsapp-de2ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789379755544:android:81c5a7bd95ca52b0badd6d",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789379755544-pggbsmbhiafvj1jp32h8i8rf3sphsvd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNeLRmPe_9djC-TYgtj-W3HRjs6pCYkPg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789379755544-pggbsmbhiafvj1jp32h8i8rf3sphsvd1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
