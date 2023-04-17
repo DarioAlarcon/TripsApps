@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/widgets/gradient.dart';
+import 'package:flutter_application_1/widgets/buttom_green.dart';
 
 class SingInScreen extends StatefulWidget{
   @override
@@ -26,6 +27,7 @@ Widget singIngoogleUI(){
       children: [
         GradientBack("", double.infinity),
         Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
               "Welcome \n this is your Travel App",
@@ -35,7 +37,14 @@ Widget singIngoogleUI(){
                 color: Colors.white,
                 fontWeight: FontWeight.bold
               ),
-            )
+            ),
+            ButtonGreen(text: "Login with Gmail",
+             onPressed: (){
+
+             },
+             width: 300.0,
+             height: 50.0,
+             )
           ],
         )
       ],
