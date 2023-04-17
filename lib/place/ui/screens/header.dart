@@ -7,7 +7,7 @@ class header extends StatelessWidget{
     // TODO: implement build
     return Stack(
         children: [
-          GradientBack("HOME"),
+          GradientBack("HOME", 250.0),
           CardImageList()
         ],
     );

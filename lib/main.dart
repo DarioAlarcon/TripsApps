@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/user/ui/screens/singInScreen.dart';
 import 'firebase_options.dart';
 import 'platzi_trips.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -33,7 +34,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // ignore: prefer_const_constructors
-      home: PlatziTrips()//const MyHomePage(title: 'Flutter Demo Home Page'),
+      //home: PlatziTrips()//const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: SingInScreen(),
     );
   }
 }
